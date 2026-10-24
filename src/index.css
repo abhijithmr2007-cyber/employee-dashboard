@@ -1,0 +1,126 @@
+:root {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1d2939;
+  background: #f5f8fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #f5f8fc;
+}
+
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.app-shell main {
+  flex: 1;
+}
+
+.navbar {
+  min-height: 64px;
+}
+
+.navbar-brand {
+  letter-spacing: -0.02em;
+}
+
+.navbar .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #fff;
+}
+
+.page-heading {
+  max-width: 760px;
+}
+
+.eyebrow {
+  color: #0d6efd;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.dashboard-card,
+.form-card {
+  overflow: hidden;
+  border-radius: 0.85rem;
+}
+
+.search-field {
+  width: 100%;
+}
+
+.search-field .form-control,
+.form-control {
+  border-color: #d8e0eb;
+}
+
+.search-field .form-control {
+  min-width: 240px;
+}
+
+.form-control:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.14);
+}
+
+.table {
+  --bs-table-hover-bg: #f5f9ff;
+}
+
+.table th {
+  color: #667085;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.table td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.email-link {
+  color: #1769c2;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.form-page {
+  max-width: 820px;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.app-footer {
+  color: #7c8798;
+  border-top: 1px solid #e6ebf2;
+  background: #fff;
+}
+
+@media (min-width: 768px) {
+  .search-field {
+    width: 280px;
+  }
+}
